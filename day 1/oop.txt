@@ -1,0 +1,562 @@
+-----------------------
+   OOP
+-----------------------
+
+
+1.clases and objects ---/
+2.constructores ---/
+3.this keyword  ---/
+4.static keyword ---/
+5.object inter relationships ---->
+	1.inheritance ---/
+	2.aggregation ---/
+	3.polymorphis ---/
+	4.encapsulation 
+	5.abstration
+		i.bstract class
+	       ii.interfaces
+6.inner classes
+7.exception handling
+8.multi threading
+9.generics
+10.designing patterns
+
+
+
+
+java swing  ---- user interfaces
+java servelets ---web technologies
+java jsp
+
+
+
+---------------------
+|1.|Clases and Objects
+---------------------
+
+Real world thing 
+    --->properties ------>variables
+    --->actions    ------>methodes
+
+
+
+After building up a class it is a template and when a class is used to model 
+something then we ned to get a cpy from that and they are known as objects
+  object is a instance of a class
+
+
+So as a summery all the classes except to main class will be modeling the real world things 
+in general.And the objects from these clases will work as specific real world things and they are formed 
+and used in the main function.
+
+
+-------------------------
+    method overloading
+-------------------------
+
+make and use many functions in many names
+
+the purpose of method overloading is to let the user know that thr r st of functions do the elative tasks having
+diffenrrnt nature of parameters,
+
+
+can do this in three types.
+     chang the parameter count
+     change the parameter type
+     change the parameter order
+
+function can return only a value
+
+void means empty.means no return
+
+EX:
+
+s.o.p("answer : "+add(12,13));
+
+int add(int x,int y){
+    return x+y;	
+}
+
+ 
+-------------------------
+    Object declaration
+-------------------------
+
+Dog d1;
+
+-------------------------
+    Object instanciation
+-------------------------
+
+new Dog();
+
+
+-------------------------
+    Object initialization
+-------------------------
+fill the properties of object
+
+1.Using the instance variables derectly.
+	properties of a class called instance variables
+
+
+2.Using a custom initializer function inside the class
+
+
+------------------
+      this
+------------------
+
+this keyword is to refer an object itself.
+this can be use only in the class scope
+
+this ---> me
+this. -->my
+this() ->
+
+
+
+3.using constructor
+
+using a constructr it is able to make an objct depending on the parameters
+we give.
+here the constructr is constructing an objectin the heap.
+
+properties of a constructor
+----------------------------
+
+1.constructr cant call as we need.
+     it invokes automatically when objects instanciating.
+2.constructr name must be same as the class.
+3.constructr has no retrn type.
+
+constructr works as a bridge btween objects in heap and instance in stack.
+
+constructrs are in two types.
+	1.default constructr
+	2.parameterized constructr
+
+
+use of constructr overloadig:
+ by keeping parameters of difrnt ntr constrctr ovrldng can.
+
+ the purpose of this is building up objcts with the use of difrnt amounts of inputs. 
+
+
+
+
+
+----------------------
+    static
+----------------------
+
+
+static is a modifier
+this can use in,
+   before a variable
+   before a methods
+   static blocks
+
+
+static mattame variabale ekk class ekata withrakaithi property ekkk bawata path we.
+ema class eke object haraha view kala nohaka.object wakata access kala haka.
+
+
+access static varibales by callig class name
+  class name.static variable;
+
+______________
+STATIC BLOCKS
+--------------
+
+kisiyam class ekk jvm thula implement wana witama static block tika run we.constructrs walatath 
+kalin static blck run we.
+
+
+
+-----------------------------
+       annonymous objects
+-----------------------------
+
+
+new A();
+
+this an anonymous object.
+without making reference in stack memory we can use a method of a class using this.
+
+new A().anyMethodInA();
+
+
+************************
+co varient return type
+************************
+if any function returs a value in type Class ,
+ they are co varient retun kireemak nam we.
+emagin anonymous object refer kala hakiya.
+
+----------------------------------->
+class A{
+
+A doublX(){
+
+	x=x*2;
+	return this;
+
+   }
+
+}
+------------------------------------>
+
+class m{
+     main(){
+   new A().doubleX.doubleX();
+	}
+	}
+
+
+
+------------------------------------>
+
+
+
+------------------
+this more
+------------------
+this(); ----------->default constructr
+this(12,"asdsa");--->parameterized constrctr
+
+
+using this can do constructr chaining
+
+------------------
+constructr chaining
+-------------------
+
+A(){}
+A(int x){
+  this();
+  this.x=x;
+}
+
+A(int x,int y){
+ this(x);
+ this.y=y;
+
+}
+
+
+
+-------------------------
+Object interealationships
+-------------------------
+
+
+________________________
+     aggeregation
+
+kisiyam oobjct ekakata thawth objct ekk aithiwa pawathwaganeemata baawithaa karai.
+
+
+if we use constructr overloadng and if we use aggregation, those classes muct can be 
+make object on there default constructrs.
+
+
+-------------------------
+      Inheritance
+-------------------------
+
+when a class is needed to be build on the foundation of another class , then inheritance is applied.
+here there is "is a relationship " between two clases.the class which is use as the foundation is the parent class. 
+th echild class is inheritance from the parent class.
+
+
+what happens ????
+
+     since the child is iheritd from the [arent,all the propertiesand actions of the parent class are owned by ,
+the child.
+
+
+
+How this works?
+
+
+
+class p{}
+
+class e extends p{}
+
+
+
+  |p|   
+
+  |e| ---> |p^|
+
+
+in extends sub class make anothe class from a copy p class .
+
+
+
+---------------------
+   super
+---------------------
+
+kisiyam constructr knk athule super constructr use kireema mulinma kala yuthuya
+
+in java v7 ekama super and this eka thana use kala nohaka.
+aluth version wala super mulin use kara devwnuwa this use kala haka.
+
+
+stack overflow:
+	filling the stack memory for java
+
+
+
+
+---------------------
+   ethod overriding
+---------------------
+parent class eke athi method ekk e naminma e parameternsnma sahithwa e return typema sahithawa child
+class eke  irmanaya kalahoth parent class eke method eka child magin overide we.mehidi child method eka thula 
+parent method eka bawitha kala yuthu nam super keyword bawitha kala yuthu we.
+
+
+-------------------------
+   types of inheritances
+-------------------------
+1.single inheritance
+2.hirerachihcl inheritance
+3.multi levl inheritance
+4.multiple inheritance 
+
+java is not allow to use multiple inheritance
+
+Object class is the superior class of all clases.
+
+
+Thaththage dewal puthata yana eka walakweemata private use kala haka.
+
+in java multiple inheritance can do within classes and interfaces.
+
+
+-------------------------
+  poly mor[hism
+-------------------------
+poly=many
+morphism=mfaces
+the same object can be kept as different faces using java polymorphism
+
+animal->dog
+
+
+is a pupy dog? yes
+is a puppy an animal? yes
+therefore the puppy has three faces
+that mean it can be used as a puppy object,dog object,animal object
+
+
+when an object is seen in an aspect of its parent references,
+ it has only properties and actions the parent class had.
+
+
+yam heyat=kin overide kara tibunoth ahu wenne overide kala eaya.
+
+
+how to see in  a parent aspect?
+***upcasting is used
+Do d1=new Puppy()
+
+Animal a1=new Animal()
+
+***downcasting
+polymophism 
+ 1.compile time :
+	method overloading
+	      
+ 2.runtime
+	method overiding with upcasting
+
+
+
+
+..................................................
+System.out.println(new Squre() instanceof Rectangle())
+
+result may be true/false
+
+
+
+*_*_*_*_*_*  type promotion list in java
+
+
+Downcasting:::::::
+ekama kenawa harwala gani.
+up casting kara dwn casting karanu labe.
+
+
+-----------------------
+      Abstration
+-----------------------
+
+
+abstration is the technology in java to hide the implementation process.
+here two methods are use.
+1abstract cls - flexible abstraction
+2.interfaces  - 100% abstraction
+
+----------------
+final keyword
+----------------
+non access modifier.
+can use before variable,methode,class
+
+blank final variables can on;y fill by constructr,
+
+
+
+in java if we create constant in righ way must use static final.
+if we write static final variable must write in capital.
+
+
+final functions--------
+
+if method is a final,sub classes can use.but cant overide
+
+
+final class-------------
+
+final classes cant inherits.no child clases.can make objects.
+
+
+abstract methid
+
+
+
+
+public abstract class A {
+
+    int x;
+
+    A() {
+
+    }
+
+    A(int x) {
+        this.x = x;
+    }
+
+    void print() {
+        System.out.println("x " + x);
+
+    }
+    abstract void doubleX();
+}
+
+
+
+----------------------------
+
+child class of astract class
+ must give implemetation to all methodes in abstract cls
+               or
+        must be abstract 
+
+
+**abstract class magin required mattamin child class walata neethi pawariya haka.
+
+
+----------------
+  Interfaces
+----------------
+
+*100% abstract.
+*having only final static variables as variables
+*having only abstract methods as methodes
+
+
+interfaces are the blueprint of clases.
+
+   1.can do abstractions using interfaces
+   2.use for multiple inheritance
+   3.loose coupling
+   
+
+relatinship between interfaces and class build on implementation.
+multiple inheritance doing using interface interface relashionship.
+
+using interfaces,aniwarya podu gathiguna dakweemata haka.
+       
+
+
+if the modifier is not defiend it is in default type.
+
+
+in methord overiding overiding method must be lo restrictfull than overridden method.
+
+
+== use only for integer variables.
+for strig, must use string methods.
+
+in multiple inheritance,if theere are same methd in one or more super class...it is not affect.
+bcos only one method is overides in sub class.
+
+
+manda yath parent class wala e  tibu methods dekatama bodies nathi nisa multiple inheritance kireemedi pataleemak
+mathu nowe.
+
+
+class <----> class          = extends
+class <----> interfaces     = implements
+interfaces<----> interfaces 4= extends
+
+
+extend and implemet can use same time.
+but extend must do first
+
+
+-----------------
+  Loose Coupling
+-----------------
+
+giving interface references and coupling.after that we can check by instance.
+
+
+----------------------
+arrays and array list
+----------------------
+array                         |      array list
+--------------------------------------------------------
+to implement fixed sizes      |       for dyanamic
+
+
+How to create array------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

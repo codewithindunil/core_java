@@ -1,0 +1,201 @@
+actuvators-----give output only
+sensores-----get inputs only---------------------
+
+
+1.main memory
+  -flash mmry  ---> to save instruction sets
+  -ram--->to save variables
+
+2.processing
+  -lamguage
+
+
+
+translators
+
+=----compiler -->directly to machine language
+=----interpretter(JIT-just in time interpretter)  --->line by line
+
+-----------------------
+|    architecture     |
+-----------------------
+
+java is a WORA language(write once run anywhre)
+
+
+             javac            jvm	
+source coede ------->byte code------->machine language
+hello.java          hello.class       hello.exe
+
+
+
+                    platform           platform
+		   independent	       dependent
+
+
+
+ _____________________________
+|    javac                    |
+|     __________________      |
+|    |                  |     |
+|    |                  |     |
+|    |                  |     |
+|    |                  |     |
+|    |                  |     |
+|    | jre              |     |
+|    |      ___________ |     |
+|    |     |  jvm      ||     |
+|    |     |___________||     |
+|    |__________________|     |
+|_____________________________|
+
+
+
+
+
+___________
+  java
+___________
+
+
+1.high level
+2.class based
+       
+3.oop
+  programng styles
+
+    1.procedural 
+    2.oop
+    3.cop
+
+4.concurrent language
+   execution styles
+    1.serial execution
+    2.parallel execution
+    3.concurrent execution
+
+
+   
+
+-----------
+   Laws
+-----------
+
+
+ieadentifier(name)  :
+
+   only use  1-z,A-Z,0-9,_,$      
+   12udara   x _12asdasj
+
+   {        
+        }   ----> = block
+
+
+can use same ieadentifier in diffenrnt blocks,,cant in same block
+
+ class -----> must start in capital
+ variable --->must start in simple
+ function---->must start in simple
+ interface---->capital
+
+
+
+
+
+--------
+in a class
+--------
+
+    * can stay variables
+             functions
+             constructers
+             nested classes
+             static blocks
+             instant blocks
+             finalize blocks
+
+
+
+all virtual objects controlling by main function.the class having main function tht class be the mail class.
+
+
+
+---------------
+    Modifiers
+---------------
+
+
+Two Types 
+
+1.access modifiers
+	ex : public,private,protected,default
+2.non access modifiers
+        ex : static,final,abstract,
+
+
+
+when we writing a packge name must start in simple ltrs
+
+
+classes within a packge are visible only within the clas.not to other packages
+
+
+
+libraries ::
+
+import java.io.Console;
+--^--  -------^--------
+
+key      full qlified 
+word        name
+
+
+-----------------------
+stack & heap memory
+-----------------------
+
+stack = fixed things saved in here
+      methodes stack : methods walata wenwana memory eke kotasa
+      all classes are making in stack 
+
+heap  = repeatevly making,unstable things
+	instances are in heap memory
+
+first priority always goes to local variable.
+
+
+
+---------------------------------------------------------------
+
+Scanner s=new Scanner(System.in);
+  
+
+
+use anoymous objct to get more inputs.it avoids the buffering errors
+
+
+int x= new Scanner(System.in).nextLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

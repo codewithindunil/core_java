@@ -1,0 +1,212 @@
+topics tobe cvrd in pp
+
+1.Data types and variables   ^/
+2.Basic oprtrs   ------->
+        arithmatic
+        assignmnt
+	relationa
+	logical
+	bitwise
+	ternary
+
+3.Decsn making ---------->
+	if
+	if-else
+	if-else if
+	swich cases
+	nested blocks
+
+4.loops ----------------->
+	for loop
+	do while
+	while
+	enhance for
+
+5.arrays----------------->
+	single dimentional arrays
+	multi dimentional arrays
+
+6.array lists
+
+7.functions                  ^/
+
+
+
+---------
+   +
+---------
+
+String concatenator	
+
+ex: system.out.println("hello"  +  20);
+                             ---^----
+
+-------------
+Type Casting
+-------------
+
+change data type
+
+
+
+-------------
+  Functions
+-------------
+
+The purpose of function is sub tasking a given task and achieve the code reusability.
+
+four main function protocols
+	1.has parameters has return
+	2.has parameters no return
+	3.no parameter has return
+	4.no parameter no return
+
+
+
+_____________________________ 
+         Operatores
+-----------------------------
+
+
+symbolic command
+
+
+1.arithmatic oprtrs
+	+ - * / %
+2.assignment
+	=
+	int x;                         x++ pre increment  ++x post increment
+	x=5;
+	x=x+1;	x+=1; x++;
+	x=x-2;  x-=2;
+3.relational
+    
+4.bitwise
+	<< left shift
+	>> right shift
+	~ xor
+	! bitwise not
+	& bitwise and
+	| bitwise or
+5.logical
+	connect operatores in logically
+        && and
+	|| or
+	!  not
+6.ternary 
+
+
+(5<x<10){
+
+
+}
+
+
+
+!(x==5)
+
+
+_____________________________ 
+    Decision Making
+-----------------------------
+
+1.if
+  cheching one side of a condition
+2.if else
+  checking two sides of a condition
+3.if else if
+  checking many conditions
+4.switch case
+5.nested occations
+6.ternary
+
+
+
+
+-------------------------
+loops
+------------------
+1.for 
+2.do while
+3.while
+4.for each for
+
+for this ,
+   need loop variable
+   loop begining valje
+   ending alue
+   repetition value
+   loop block
+
+
+for(int i=0;i<5;i++){
+
+    }
+i increase kireeme flexibility ekak natha.userta awashya whta kala nohaka.
+
+
+
+break can use anywhere we need to force stop....
+
+
+
+continue can use to jump over curent iterate....in java, can use only in fo loops
+
+
+
+
+
+--------------------
+premitive ata type
+--------------------
+
+int,long,double,string,char
+
+
+
+----------------------
+non-premitive ata type
+----------------------
+
+Data types bulding buy clases
+   ex:
+    Scanner scan;
+    FirstClass fs;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

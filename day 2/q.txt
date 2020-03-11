@@ -1,0 +1,11 @@
+q1.Abc company is a tank manufactuer for oil storages.they manufactr tanks without lids.the customrs come 
+   for eithr 
+ 	1.to get a new tank manufacture
+ 	2.to get the bottom replace only
+build up a software including a tank class to 
+   1.model any kind of tank
+   2.to get the volume of the tank
+   3.to find the total surface area
+   4.to find the total cost including rw and labr cost
+   5.to print the quotation for the desired tank
+

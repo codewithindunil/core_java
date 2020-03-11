@@ -1,0 +1,26 @@
+q1.build up a prgrm to find the total surface area and the volume of a cuboid and print it.
+
+
+build up a class to model a shape
+
+shape name,shape area
+getNme,getArea,two constructrs
+
+inherit the followng classes from shape
+
+1.rectangle class
+2.circle cls
+
+each cls should have followng properties
+
+rect: length,width
+	construct,setLen,setWid
+cir:radius
+	construct,se
+	getArea
+
+
+3.inherit square class from the rectangle cls no additional properties of functions.constructrs must.
+
+shape-->cir
+     -->rect-->squre
