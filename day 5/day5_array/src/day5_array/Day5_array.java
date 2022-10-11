@@ -20,7 +20,7 @@ public class Day5_array {
 //            
 //
 //        }
-//
+//for loop can use to iterate
 //            for (x = 0; x < 10; x++) {
 //                try {
 //                    System.out.println(names[x]);
